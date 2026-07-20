@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Necofont</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="../Images/favicon.png" />
+    </head>
+    <body>
+        <main class="container">
+            <h1>Necofont</h1>
+            <p class="subtitle">A cute little handwrite font by a 11yo that nobody asked for.</p>
+            <section class="previewCard">
+                <h2>Try it</h2>
+                <textarea id="previewInput">I love Okayu</textarea>
+                <div id="previewText">I love Okayu</div>
+            </section>
+            <section class="charset">
+                <h2>Supported Characters</h2>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                <p>abcdefghijklmnopqrstuvwxyz</p>
+                <p>0123456789</p>
+                <p>!?.,:;+-</p>
+                <p>I forgot what else is supported</p>
+            </section>
+            <section class="update">
+                <h2>Will it ever get an update???</h2>
+                <p>No, 100% never. In fact I already lost the original file :3</p>
+            </section>
+            <section class="download">
+                <h2>Download</h2>
+                <p>I am sure no virus inside and I'm sorry for the flashbang of this webpage.</p>
+                <p>If you want it in other format, I am pround to say that I'm afraid it is not possible.</p>
+                <a href="Necofont.ttf" class="button">Download TTF</a>
+            </section>
+        </main>
+        <script>
+            const input = document.getElementById("previewInput");
+            const preview = document.getElementById("previewText");
+
+            input.addEventListener("input", () => {
+                preview.textContent = input.value;
+            });
+        </script>
+    </body>
+</html>

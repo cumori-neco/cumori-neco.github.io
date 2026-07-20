@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Necofont";
+    src: url("Necofont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Necofont";
+    color: #222222;
+}
+
+body {
+    background-color: #fffdf7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.preview-card,
+.charset,
+.download,
+.update {
+    background: white;
+    border-radius: 24px;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-color: #666;
+    border: solid;
+    border-width: medium;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 24px;
+    border: solid;
+    border-color: #666;
+    border-width: medium;
+    resize: none;
+    box-sizing: border-box;
+}
+
+#previewText {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.charest.p {
+    font-size: 34px;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #8c7bd8;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #7564c4;
+}
