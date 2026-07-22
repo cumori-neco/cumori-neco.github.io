@@ -199,6 +199,22 @@ footer {
     font-size: 80px;
 }
 
+/* Copy pasty */
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #8c7bd8;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #7564c4;
+}
+
 @keyframes scroll {
     0% {
         transform: translate(0, 0);
