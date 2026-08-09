@@ -11,7 +11,7 @@
             href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet" />
         <link rel="icon" href="Images/favicon.png" />
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div class="marquee-container">
@@ -19,27 +19,53 @@
         </div>
         <img src="Images/banner.png" class="banner" />
         <main class="content">
-            <section class="intro">
-                <img src="Images/me.png" class="avatar" alt="for those who wonder how I look like..." />
-                <article>
-                    <h1>Cumori Neco</h1>
-                    <p class="bio">🇹🇼｜♂︎｜Born in 2012/9/18</p>
-                    <p>
-                        Hello my name is Neco (rhymes with chinko), also known as Cumori or NecoDev elsewhere. I do
-                        programming stuff, mostly related to C# and Unity. However, I need to go to school and I am lazy
-                        so I am not extremely active about these topics, but that doesn't mean I'm not interested!
-                    </p>
-                    <p>
-                        If you ask when I started this all (which you won't, I know), I first drew a game with a pencil
-                        and play with my friends when I was like 7 or 8. It turned out to be a bit fun so as a failure
-                        asian boy (joke) would do, I decided to learn more. When I was 9, I learned Scratch by myself
-                        (don't look - it is worse than you think) then I learned Unity a year later.
-                    </p>
-                    <p>
-                        I guess that's basically it, if you wonder how many sh1ts I've made then you can scroll down to
-                        see more.
-                    </p>
-                </article>
+            <section class="hero" id="home-hero">
+                <div class="slides">
+                    <div class="slide active">
+                        <div class="intro">
+                        <img src="Images/me.png" class="avatar" alt="for those who wonder how I look like..." />
+                        <article>
+                            <h1>Cumori Neco</h1>
+                            <p class="bio">🇹🇼｜♂︎｜Born in 2012/9/18</p>
+                            <p>
+                                Hello my name is Neco (rhymes with chinko), also known as Cumori or NecoDev elsewhere. I do
+                                programming stuff, mostly related to C# and Unity. However, I need to go to school and I am lazy
+                                so I am not extremely active about these topics, but that doesn't mean I'm not interested!
+                            </p>
+                            <p>
+                                If you ask when I started this all (which you won't, I know), I first drew a game with a pencil
+                                and play with my friends when I was like 7 or 8. It turned out to be a bit fun so as a failure
+                                asian boy (joke) would do, I decided to learn more. When I was 9, I learned Scratch by myself
+                                (don't look - it is worse than you think) then I learned Unity a year later.
+                            </p>
+                            <p>
+                                I guess that's basically it, if you wonder how many sh1ts I've made then you can scroll down to
+                                see more.
+                            </p>
+                        </article>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="feature">
+                            <section class="desk">
+                                <h1>Desk</h1>
+                                <p>Hey why not take a look at my messy desk where I create things you see below?</p>
+                                <a class="button" href="/Desk">My Desk →</a>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="feature">
+                            <h1>Blog</h1>
+                            <p>I haven't finish the page yet hold on.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="slide-controls">
+                        <button class="slide-dot active" aria-label="Show introduction"></button>
+                        <button class="slide-dot" aria-label="Show desk"></button>
+                        <button class="slide-dot" aria-label="Show blog"></button>
+                    </div>
             </section>
             <section class="discord">
                <h2>My Discord Server</h2>
@@ -94,11 +120,6 @@
                     </div>
                 </div>
             </div>
-            <section class="desk">
-                <h2>Desk</h2>
-                <p>Hey why not take a look at my messy desk?</p>
-                <a class="button" href="/Desk">My Desk →</a>
-            </section>
         </main>
     </body>
 </html>
